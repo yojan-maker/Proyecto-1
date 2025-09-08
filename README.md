@@ -83,4 +83,10 @@ El dashboard fue desplegado en **Hugging Face** para acceso publico.
 ## 👥 Autores
 * Yojan Contreras / yojan-maker
 * Cristian Losada / Cris1711-NightWolf
+
 📅 Septiembre 2025
+
+------------
+
+## ✨ Frase Epica
+###### "El equilibrio del conocimiento... es inevitable." 🟣
