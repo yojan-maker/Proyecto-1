@@ -1,7 +1,5 @@
 # 🤖 Proyecto 1: Exposicion con Pepper y Dashboard Didactico
 
-![Pepper Robot](https://upload.wikimedia.org/wikipedia/commons/1/1c/Pepper_robot.jpg)
-
 ## 📌 Descripción
 Este proyecto integra el **robot Pepper**, un **chatbot educativo con personalidad inspirada en Thanos** y un **dashboard interactivo** desarrollado en **Streamlit**.  
 
@@ -59,5 +57,15 @@ El objetivo es combinar **interacción robótica**, **novedades tecnológicas** 
 ## 🚀 Instalación y Ejecución
 
 ### 1️⃣ Clonar el repositorio
-git clone https://github.com/tu_usuario/pepper-chatbot.git
+git clone (URL del repositorio)
 cd pepper-chatbot
+
+### 2️⃣ Crear entorno virtual
+python3 -m venv venv
+source venv/bin/activate
+
+### 3️⃣ Instalar dependencias
+pip install -r requirements.txt
+
+### 4️⃣ Ejecutar el chatbot
+streamlit run chatbot.py
