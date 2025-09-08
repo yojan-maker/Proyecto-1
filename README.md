@@ -77,3 +77,10 @@ streamlit run chatbot.py
 ## 📊 Dashboard Online
 El dashboard fue desplegado en **Hugging Face** para acceso publico.
 🔗 https://huggingface.co/spaces/Cris1711-NightWolf/Dashboard_Proyecto_Final
+
+------------
+
+## 👥 Autores
+* Yojan Contreras / yojan-maker
+* Cristian Losada / Cris1711-NightWolf
+📅 Septiembre 2025
