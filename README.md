@@ -1,4 +1,4 @@
-# 🤖 Proyecto 1: Exposicion con Pepper y Dashboard Didactico
+# 🤖 Proyecto 1: Exposicion con Pepper y Dashboard Interactivo
 
 ## 📌 Descripción
 Este proyecto integra el **robot Pepper**, un **chatbot educativo con personalidad inspirada en Thanos** y un **dashboard interactivo** desarrollado en **Streamlit**.  
@@ -76,6 +76,7 @@ streamlit run chatbot.py
 
 ## 📊 Dashboard Online
 El dashboard fue desplegado en **Hugging Face** para acceso publico.
+
 🔗 https://huggingface.co/spaces/Cris1711-NightWolf/Dashboard_Proyecto_Final
 
 ------------
