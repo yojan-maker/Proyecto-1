@@ -58,6 +58,7 @@ El objetivo es combinar **interacción robótica**, **novedades tecnológicas** 
 
 ### 1️⃣ Clonar el repositorio
 git clone (URL del repositorio)
+
 cd pepper-chatbot
 
 ### 2️⃣ Crear entorno virtual
@@ -69,3 +70,10 @@ pip install -r requirements.txt
 
 ### 4️⃣ Ejecutar el chatbot
 streamlit run chatbot.py
+
+------------
+
+
+## 📊 Dashboard Online
+El dashboard fue desplegado en **Hugging Face** para acceso publico.
+🔗 https://huggingface.co/spaces/Cris1711-NightWolf/Dashboard_Proyecto_Final
