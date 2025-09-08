@@ -1,0 +1,6 @@
+streamlit
+streamlit-mic-recorder
+langchain-core
+langchain-deepseek
+gtts
+pydub
