@@ -7,14 +7,14 @@ import io
 import base64
 import os
 
-# ----------------------------
+# ---------------------
 # CONFIGURACIÓN DE LA PÁGINA
-# ----------------------------
+# ---------------------
 st.set_page_config(page_title="El Inefable Conocimiento - Chatbot Thanos", layout="wide")
 
-# ----------------------------
+# -------------------------
 # ESTILO GLOBAL (CSS)
-# ----------------------------
+# -----------------------
 st.markdown(
     """
     <style>
@@ -44,22 +44,22 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# ----------------------------
+# ------------------------
 # TÍTULO
-# ----------------------------
+# ---------------------
 st.markdown(
     '<h1>💎 El Inefable Conocimiento - Chatbot Thanos</h1>',
     unsafe_allow_html=True
 )
 
-# ----------------------------
+# -------------
 # LAYOUT PRINCIPAL (3 COLUMNAS)
-# ----------------------------
+# ---------------
 col1, col2, col3 = st.columns([1, 1, 2])
 
-# ----------------------------
+# ---------------------
 # COL1 - VIDEOS LOCALES
-# ----------------------------
+# --------------------
 with col1:
     st.subheader("📹 Visiones del Futuro")
 
@@ -72,7 +72,7 @@ with col1:
     with st.expander("💠 NFTs - Tokens no fungibles"):
         st.video("/home/nightwolf/Vídeos/NFTs.mp4")
 
-# ----------------------------
+# -------------------
 # COL2 - NOVEDADES
 # ----------------------------
 with col2:
@@ -87,9 +87,9 @@ with col2:
     st.markdown("### 💠 NFTs")
     st.warning("Los NFTs son fragmentos únicos en un multiverso digital. Como las gemas, ninguno es igual al otro, y su valor reside en la singularidad.")
 
-# ----------------------------
+# ------------------
 # COL3 - CHATBOT
-# ----------------------------
+# --------------------------
 with col3:
     st.subheader("🤖 El Oráculo de Thanos")
     st.write("Consulta... si te atreves:")
@@ -136,9 +136,9 @@ with col3:
             if message["role"] == "assistant" and "audio" in message:
                 st.audio(message["audio"], format="audio/mp3")
 
-    # ----------------------------
+    # --------------------------
     # FUNCIÓN PRINCIPAL DEL CHAT
-    # ----------------------------
+    # -----------------------------
     def handle_chat(user_input, is_voice=False):
         if user_input:
             st.session_state.messages.append({"role": "user", "content": user_input})
@@ -176,9 +176,9 @@ with col3:
                 st.session_state.voice_input = None
                 st.rerun()
 
-    # ----------------------------
+    # ---------------------------
     # ENTRADA DE VOZ Y TEXTO
-    # ----------------------------
+    # -------------------------------
     col_a, col_b = st.columns(2)
 
     with col_a:
@@ -202,9 +202,9 @@ with col3:
     if text_input:
         handle_chat(text_input)
 
-    # ----------------------------
+    # ---------------------
     # FOOTER ÉPICO
-    # ----------------------------
+    # ------------------------------
     st.markdown("---")
     st.markdown(
         "<div style='text-align:center; background-color: #5a189a; color:white; padding:10px; border-radius:10px;'>"
